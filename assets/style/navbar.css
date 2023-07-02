@@ -1,0 +1,127 @@
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fff;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(4, 154, 184);
+  background: linear-gradient(
+    90deg,
+    rgba(4, 154, 184, 1) 17%,
+    rgba(29, 188, 191, 0.938813025210084) 51%,
+    rgba(4, 154, 184, 1) 83%
+  );
+  padding: 7px;
+}
+
+.navbarLeft {
+  display: flex;
+  align-items: center;
+  margin-left: 15rem;
+  cursor: pointer;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.tryoutin {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.tryoutin span:first-child {
+  margin-right: -5.5px;
+  color: #fd8469;
+}
+
+.tryoutin span:last-child {
+  color: #fbfbfb;
+}
+
+.tryoutin h1 {
+  margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: xx-large;
+}
+
+.tryoutin p {
+  margin-top: 0px;
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  color: #fbfbfb;
+}
+
+.navbarRight {
+  margin-right: 15rem;
+  display: flex;
+}
+
+.navbarRight a {
+  margin-right: 45px;
+  position: relative;
+  margin-right: 50px;
+  color: #fbfbfb;
+  text-decoration: none;
+  font-size: 16.8px;
+  font-family: "Open sans", sans-serif;
+}
+
+.navbarRight a:hover {
+  color: #fd8469;
+}
+
+.navbarRight a::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 2px;
+  background-color: #ffffff;
+  transition: width 0.3s ease;
+}
+
+.navbarRight a:hover::after {
+  width: 100%;
+}
+
+.navbarRight button {
+  position: relative;
+  margin-right: 30px;
+  margin-top: -9px;
+  padding: 7px 15px;
+  height: auto;
+  color: #fbfbfb;
+  background: transparent;
+  text-decoration: none;
+  border: 2px solid #fbfbfb;
+  border-radius: 100px;
+  font-size: 16.8px;
+  font-family: "Open sans", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbarRight #login {
+  background: rgb(4, 154, 184);
+}
+
+.navbarRight #login:hover {
+  background: rgb(4, 96, 115);
+  cursor: pointer;
+}

@@ -1,0 +1,95 @@
+html {
+  width: 100%;
+  height: auto;
+}
+
+.registration {
+  margin-top: 10rem;
+  margin-left: 15rem;
+  width: 44%;
+  height: auto;
+}
+
+.register {
+  display: flex;
+}
+
+.register img {
+  width: 60px;
+  height: 60px;
+}
+
+.register h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+  margin: 0 0 0 15px;
+}
+
+.registration #ket {
+  font-family: "Open sans", sans-serif;
+  font-size: 14px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.registration input {
+  border-radius: 25px;
+  padding: 10px;
+  margin: 10px;
+  width: 200%;
+  font-family: "Open sans", sans-serif;
+  font-size: 14px;
+}
+
+#profil, #akun {
+  font-family: "Oswald", sans-serif;
+  font-size: 30px;
+}
+
+td {
+  font-family: "Open sans", sans-serif;
+  font-size: 16px;
+}
+
+td :last-child {
+  margin-left: 50px;
+}
+
+.detail-profil {
+  margin-bottom: 30px;
+}
+
+.registration #kelamin {
+  width: 210%;
+  padding: 10px;
+  font-family: "Open sans", sans-serif;
+  font-size: 14px;
+  border: 2px solid;
+  border-radius: 25px;
+}
+
+.registration #req {
+  font-family: "Open sans, sans-serif";
+  font-size: 14px;
+  color: #dc3545;
+}
+
+button {
+  padding: 10px 30px;
+  border-radius: 25px;
+  font-family: "Open sans, sans-serif";
+  font-size: 16px;
+  color: #fbfbfb;
+  background: rgb(4, 154, 184);
+  border: 2px solid #fbfbfb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#register-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  margin-left: -10px;
+}

@@ -1,0 +1,66 @@
+.container {
+    width: 100%;
+    height: auto;
+    margin-top: 10rem;
+    display: flex;
+}
+
+.tentang-kami {
+    width: 50%;
+    margin-left: 15rem;
+}
+
+.tentang-kami h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 40px;
+}
+
+.tentang-kami p{
+    font-family: "Open sans", sans-serif;
+    font-size: 14px;
+}
+
+.soal {
+    width: 15%;
+    height: auto;
+    margin-top: 3rem;
+    margin-left: 10rem;
+    border: 2px solid;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#available, #soal {
+    font-family: "Oswald", sans-serif;
+    font-size: 35px;
+}
+
+.soal #soal {
+    color: #fd8469;
+}
+
+hr {
+    margin-top: -5px;
+    width: 85%;
+}
+
+.matematika {
+    margin-top: -10px;
+}
+
+.matematika, .tps, .bahasa-indonesia, .bahasa-inggris {
+    font-family: "Open sans", sans-serif;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.soal img {
+    margin-left: 20px;
+    width: 70px;
+    height: 70px;
+}
+
+.soal #baris-akhir {
+    margin-bottom: 20px;
+}

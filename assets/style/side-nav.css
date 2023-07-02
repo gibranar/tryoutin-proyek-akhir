@@ -1,0 +1,69 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans -serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body.dark-mode {
+    background-color: #444654;
+    color: #fff;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 30px;
+  }
+  
+  .sidenav a {
+    padding: 25px 8px 8px 16px;
+    margin-left: 40px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  #navletft {
+    width: 14.5rem;
+    border: 1px groove white;
+  }
+  
+  #profil {
+    display: flex;
+  }
+  
+  .container {
+      display: flex;
+  }
+  
+  .left {
+      width: 50%;
+      height: auto;
+  }
+  
+  .right {
+      width: 50%;
+      height: auto;
+      margin-right: 0px;
+  }

@@ -1,0 +1,50 @@
+body {
+  background-color: #f1f1f1;
+}
+
+#pilih {
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+  font-size: 36px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  color: #212529;
+}
+
+.dark-mode #pilih {
+    color: #c7c7c7;
+}
+
+#atas {
+  margin-bottom: 5rem;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+}
+
+.soal {
+  width: 50%;
+  border: 1px solid #000;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.soal p,
+input[type="radio"] {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  margin-top: 1rem;
+  margin-left: 82rem;
+  margin-bottom: 5rem;
+  padding: 10px 30px;
+  background-color: rgb(4, 154, 184);
+  color: #fff;
+  cursor: pointer;
+}

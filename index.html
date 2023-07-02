@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TryoutIn</title>
+    <link rel="stylesheet" href="assets/style/navbar.css" />
+    <link rel="stylesheet" href="assets/style/style-index.css" />
+    <link rel="shortcut icon" href="assets/icon/TryoutIn-icon.png" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Oswald"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet" />
+  </head>
+  <body>
+    <nav>
+      <div class="navbarLeft" onclick="window.location.href='#beranda-section'">
+        <div class="icon">
+          <img
+            src="assets/icon/TryoutIn-icon.png"
+            id="logo tryoutin"
+            alt="Icon TryoutIn"
+            style="width: 70px; height: 70px"
+          />
+        </div>
+        <div class="tryoutin">
+          <h1><span>TRY</span> <span>OUTIN</span></h1>
+          <p>Persiapan Sebelum Ujian</p>
+        </div>
+      </div>
+      <div class="navbarRight">
+        <a href="#beranda-section" id="home">Beranda</a>
+        <a href="about-us.html" id="about">Tentang Kami</a>
+        <a href="contact-us.php" id="contact">Kontak Kami</a>
+        <button id="login" onclick="window.location.href='login.php'">
+          Masuk / Daftar
+        </button>
+      </div>
+    </nav>
+
+    <div class="beranda_study" id="beranda-section">
+      <div class="beranda">
+        <h1 style="margin-bottom: 0">TRYOUT ONLINE DENGAN BERBAGAI</h1>
+        <h1 style="margin-top: 0">MATA PELAJARAN</h1>
+        <p>
+          Sebentar lagi ujian dan anda belum ada persiapan?
+          <strong>Tenang, kami adalah SOLUSINYA!</strong>
+        </p>
+        <p style="margin-top: 25px">
+          Kami membantu anda untuk berlatih dan menghadapi macam-macam soal
+        </p>
+        <p style="margin-top: -5px">
+          ujian,
+          <strong>MATEMATIKA, TPS, BAHASA INDONESIA, BAHASA INGGRIS.</strong>
+        </p>
+        <p style="margin-top: 25px">
+          TRYOUTIN menyediakan berbagai soal dan memberikan hasil tryout.
+        </p>
+        <p style="margin-top: 25px">
+          <strong>Selamat Belajar dan Good Luck!</strong>
+        </p>
+        <button id="daftar" onclick="window.location.href='login.php'">
+          Mulai Sekarang
+        </button>
+      </div>
+
+      <div class="study">
+        <img
+          src="assets/icon/Studying.jpg"
+          alt="logo belajar"
+          style="width: 600px; height: 600px; background: rgb(4, 154, 184)"
+        />
+      </div>
+    </div>
+
+    <h2 id="lebih">Kelebihan yang ada di TRYOUTIN</h2>
+    <div class="kelebihan">
+      <div class="row1">
+        <span class="time-icon">
+          <img
+            src="assets/icon/time.png"
+            alt="time"
+            style="width: 120px; height: 120px; display: inline-block"
+          />
+        </span>
+        <h5>Waktu Mengerjakan Flexible</h5>
+        <p>Siapapun dapat mengerjakan soal tryout</p>
+        <p>ini kapanpun dan dimanapun asalkan</p>
+        <p>memiliki device dan internet.</p>
+      </div>
+
+      <div class="row2">
+        <span class="thumb-icon">
+          <img
+            src="assets/icon/like.png"
+            alt="thumb"
+            style="
+              width: 65px;
+              height: 65px;
+              display: inline-block;
+              margin-top: 23px;
+            "
+          />
+        </span>
+        <h5>Tidak Dipungut Biaya</h5>
+        <p>Tryoutin merupakan website untuk</p>
+        <p>mengerjakan tryout yang dapat dikerjakan</p>
+        <p>tanpa mengeluarkan biaya.</p>
+      </div>
+
+      <div class="row3">
+        <span class="page-icon">
+          <img
+            src="assets/icon/page.png"
+            alt="page"
+            style="
+              width: 70px;
+              height: 70px;
+              display: inline-block;
+              margin-top: 20px;
+            "
+          />
+        </span>
+        <h5>Soal-Soal Terkini</h5>
+        <p>Tryoutin menyediakan soal-soal</p>
+        <p>terkini yang sesuai dengan</p>
+        <p>materi-materi pada saat ini.</p>
+      </div>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const berandaLink = document.getElementById("home");
+        berandaLink.addEventListener("click", function (event) {
+          event.preventDefault();
+          const targetElement = document.getElementById("beranda-section");
+          targetElement.scrollIntoView({ behavior: "smooth" });
+        });
+      });
+    </script>
+  </body>
+</html>
